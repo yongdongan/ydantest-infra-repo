@@ -76,6 +76,11 @@ module "eks" {
       username = "yongdong.an_codecommit"
       groups   = ["system:masters"]
     },
+    {
+      userarn  = "arn:aws:iam::386474451889:user/yongdong.an@bespinglobal.com"
+      username = "yongdong.an@bespinglobal.com"
+      groups   = ["system:masters"]
+    },
   ]
 
   aws_auth_accounts = [
